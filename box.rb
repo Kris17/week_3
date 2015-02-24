@@ -11,8 +11,7 @@ class Box
 	and there have to be setter and getter methods
 	there have to be get_area() method
 =end
-  attr_accessor :width
-  attr_accessor :height
+
 
   def initialize(width, height)
     @width = width
